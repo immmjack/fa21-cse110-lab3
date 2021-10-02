@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSE 20 Staff Meeting Notes</title>
+        <link rel = "random" type = "image/jpg" href = "/media/random.jpg">
+    </head>
+    <body>
+        <header>
+            <div><h1>CSE 20 (Spring 2021) Last Staff Meeting</h1></div>
+            <nav>
+                <ul>
+                    <li><a href = "#revisit">Revisit of Last Week</a></li>
+                    <li><a href = "#final_oh">Week 10 OHs Debrief</a></li>
+                    <li><a href = "#final_di">Week 10 Discussion Section Debrief</a></li>
+                    <li><a href = "#final">The Upcoming Final Exam (June 10, Thursday, 8 AM)</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div><h2>Attendance List</h2></div>
+            <ol>
+                <li>Miles Jones</li>
+                <li>R2-D2</li>
+                <li><a href = "https://immmjack.github.io/">Jack Yang</a></li>
+                <li>BB-8</li>
+                <li>Anakin Skywalker</li>
+                <li>Darth Vader</li>
+                <li>Obi-Wan Kenobi</li>
+            </ol>
+            <hr>
+            <section>
+                <h1 id = "revisit">Revisit of Last Week</h1>
+                <p>The most surprised thing by professor. A non-related video is here.</p>
+                <div>
+                    <video controls width = "720" src="./media/awesome.mp4">lol</video>
+                </div>
+                <!-- <video width = "320" height = "240" autoplay>
+                    <source src = "./media/random.mp4" type = "video/mp4">
+                    hello
+                </video> -->
+            </section>
+            <section>
+                <h1 id = "final_oh">Week 10 OHs Debrief</h1>
+                <p>For me, my office hours are on the due date for the last homework, so there are a lot of students asking for help. <br>
+
+                In general, the situation is different. 
+                </p>
+                <ul>
+                    <li>All tutors and TAs still held their OHs, but there are not so many students.</li>
+                    <li>Few staffs got students for the one-on-one meetings.</li>
+                </ul>
+            </section>
+            <section>
+                <h1 id = "final_di">Week 10 Discussion Section Debrief</h1>
+                <p>This is a review session for the final exam next week, but not that many students knew and came to it. We always record our meetings, so they can watch it in the final exam's week. Here is a (random and non-related) piece of audio recording.</p>
+                <figure>
+                    <audio controls src = "./media/random1.mp3">hola<code>guten tag</code></audio>
+                </figure>
+            </section>
+            <section>
+                <h1 id = "final">The Upcoming Final Exam (June 10, Thursday, 8 AM)</h1>
+                <h2>Note</h2>
+                <p>If anyone is free before the final exam is released, please go over the exam problems.</p>
+                <h2>Exam Proctoring</h2>
+                <ul>
+                    <li>Coverage from <span style = "font-weight: bold;">8 AM to 11 AM</span> Thursday (8 AM to 2 PM)</li>
+                    <li>Coverage in the evening: 6 PM to midnight</li>
+                    <li>Complete the proctoring time coverage sheet</li>
+                </ul>
+                <h2>Exam Review</h2>
+                <ul>
+                    <li><span style = "font-style: italic;">Canvas</span> Portion</li>
+                    <ul>
+                        <li><b>60 minutes</b>, <i>12 questions</i></li>
+                        <li>Go over the concept list</li>
+                    </ul>
+                    <li><span style = "font-style: italic;">Gradescope</span> Portion</li>
+                    <ul>
+                        <li><strong>2 hours</strong>, <em>7 questions</em></li>
+                        <li>Problems so far</li>
+                    </ul>
+                </ul>
+            </section>
+            <details>
+                <summary>TODO for this week</summary>
+                <ol>
+                    <li><input type = "checkbox" />Fill out the proctoring times.</li>
+                    <li><input type = "checkbox" />Fill in the Canvas and Gradescope portions.</li>
+                    <li><input type = "checkbox" />Proofread these problems after the exam is ready.</li>
+                    <li><input type = "checkbox" />Post a Piazza announcement for the exam.</li>
+                </ol>
+            </details>
+        </main>
+        <form>
+            <h2>Suggestion Form</h2>
+            <fieldset>
+                <legend>What is your favorite part of the meeting notes?</legend>
+                <input type = "radio" id = "revisit" name = "part">
+                <label for = "revisit">Revisit of Last Week</label>
+                <br/>
+                <input type = "radio" id = "oh" name = "part">
+                <label for = "oh">Week 10 OHs Debrief</label>
+                <br/>
+                <input type = "radio" id = "di" name = "part">
+                <label for = "di">Week 10 Discussion Section Debrief</label>
+                <br/>
+                <input type = "radio" id = "f" name = "part">
+                <label for = "f">The Upcoming Final Exam</label>
+                <br/>
+            </fieldset>
+            <br>
+
+            <label for = "improvement">Do you have any suggestion to help me writing a better meeting note?</label>
+            <br>
+            <textarea id = "improvement" name = improvement" rows = "20" cols = "80">
+                Jack, you can improve your meeting note by ...
+            </textarea>
+            <br>
+
+            <label for = "feeling">How you feel today? (5 for best, 1 for worst)</label>
+            <input list = "rate" id = "feeling" name = "feeling" />
+            <datalist id = "rate">
+                <option value = "1"></option>
+                <option value = "2"></option>
+                <option value = "3"></option>
+                <option value = "4"></option>
+                <option value = "5"></option>
+            </datalist>
+            <br>
+
+            <label for = "swe">Do you want to be a software engineer?</label>
+            <select name = "prog" id = "swe">
+            <option value = "">--Please select what describes your idea--</option>
+            <option value = "yes">Yes.</option>
+            <option value = "few">Some sort of.</option>
+            <option value = "no">No.</option>
+            </select>
+        </form>
+        <footer>
+            <h4>Subsribe for Update</h4>
+            <form onsubmit = "alert('You just subscribed my website')">
+                <input type = "text" placeholder = "Email: " />
+                <button>Click for subscribe</button>
+            </form>
+            <br>
+        </footer>
+        <div>
+            <img width = "250" alt = "liukanshan" src = "./media/random.jpg">
+        </div>
+    </body>
+</html>
