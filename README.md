@@ -1,0 +1,1 @@
+[Here](https://immmjack.github.io/Lab2/) is the link to the meeting notes. 
