@@ -1,18 +1,36 @@
 /* For body elements */
 body {
-    background-color: blue;
+    background-color: lightgoldenrodyellow;
 }
 
-/* For heading elements h1, h2 */
+/* For heading elements */
 h1 {
-    color: black;
+    color: #666666;
     line-height: 1em; 
     margin-left: 20px; 
     font-weight: bold;
 }
 
 h2 {
-    color: rgb(200, 200, 200);
-    line-height: 0.8em;
-    margin-left: 20px;
+    color: rgba(52, 50, 61, 0.753);
+    line-height: 1ex;
+    margin-left: 5mm;
+}
+
+h3 {
+    line-height: 2vw;
+    margin-left: 0.5cm;
+}
+
+form {
+    color: rgba(28, 160, 236, 0.9);
+    text-decoration: underline;
+}
+
+* {
+    font-weight: normal;
+}
+
+button:hover {
+    color: blue;
 }
