@@ -1,1 +1,1 @@
-[Here](https://immmjack.github.io/Lab2/) is the link to the meeting notes. 
+[Here](https://immmjack.github.io/fa21-cse110-lab3/) is the link to the meeting notes. 
